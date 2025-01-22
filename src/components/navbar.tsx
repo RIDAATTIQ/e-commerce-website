@@ -16,7 +16,7 @@ const Navbar = () => {
             </button>
             <ul className="absolute left-0 mt-2 bg-white text-black rounded shadow-lg hidden group-hover:block">
               <li><Link href="/tops" className="block px-4 py-2 hover:bg-gray-100">Tops</Link></li>
-              <li><Link href="/pants" className="block px-4 py-2 hover:bg-gray-100">Pants</Link></li>
+              <li><Link href="/products" className="block px-4 py-2 hover:bg-gray-100">products</Link></li>
               <li><Link href="/accessories" className="block px-4 py-2 hover:bg-gray-100">Accessories</Link></li>
               <li><Link href="/shoes" className="block px-4 py-2 hover:bg-gray-100">Shoes</Link></li>
             </ul>

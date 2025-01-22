@@ -19,7 +19,7 @@ const AboutPage = () => {
               className="w-full h-auto object-cover rounded-md shadow-md" 
             />
             <h3 className="text-lg font-medium text-gray-900 mt-4">Stylish Clothing</h3>
-            <p className="text-gray-600 mt-2">Discover the latest trends in women's fashion, from dresses to casual wear, we have something for every occasion.</p>
+            <p className="text-gray-600 mt-2">Discover the latest trends in womens fashion, from dresses to casual wear, we have something for every occasion.</p>
           </div>
           <div className="flex flex-col items-center">
             <Image 

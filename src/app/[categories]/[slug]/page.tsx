@@ -54,7 +54,7 @@ const Slug = () => {
               Discover the perfect blend of comfort and style with our exclusive
               ladies tops. Designed to suit every occasion, these trendy and
               versatile pieces offer a flattering fit and premium quality
-              fabric. Elevate your wardrobe with effortless elegance!
+              fabric. Elevate your wardrobe with effortless elegance
             </p>
             <div className="flex flex-col sm:flex-row items-center border-b-2 border-gray-200 pb-4 mb-6">
               <div className="flex items-center mb-4 sm:mb-0">

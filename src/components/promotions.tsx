@@ -19,7 +19,7 @@ const Promotions = () => {
                 Get up to 50% off
               </h2>
               <h1 className="title-font sm:text-2xl text-xl font-medium text-black mb-3">
-                On all winter collection, get the best deals now!
+                On all winter collection, get the best deals now
               </h1>
               <p className="leading-relaxed mb-3 text-black">
                 We provide the best deals on all winter collection, get the best deals now, hurry up and grab the best offers.

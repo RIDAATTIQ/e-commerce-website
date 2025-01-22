@@ -18,7 +18,7 @@
           <h2 className="text-xl font-semibold text-center text-gray-700">Add to Cart</h2>
           
           <div className="mt-4">
-            <p className="text-gray-500 text-sm">Choose the quantity you want to add:</p>
+            <p className="text-gray-500 text-sm">Choose the quantity you want to add</p>
             
             <input
               type="number"
