@@ -1,6 +1,18 @@
 import { client } from '@/sanity/lib/client';
 import Image from 'next/image';
 
+type product ={
+  _id: string;
+  name: string;
+  description: string;
+  price: number;
+  image: string;
+  imageUrl: string;
+};
+
+
+
+
 const Products = async () => {
   const query = `*[_type == "product"]{
     _id,
@@ -16,7 +28,7 @@ const Products = async () => {
       <h1 className='text 4xl font-bold flex justify-center bg-pink-900'>NEW Arrivals</h1>
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 mt-8">
         {products.length > 0 ? (
-          products.map((product: any) => (
+          products.map((product: product) => (
             <div key={product._id} className="border p-4 rounded-lg shadow-lg">
               {/* Image */}
               <div className="flex justify-center">
