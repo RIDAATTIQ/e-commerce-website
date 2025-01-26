@@ -2,16 +2,20 @@ import { client } from '@/sanity/lib/client';
 
 import Image from 'next/image';
 
-type product ={
-  _id: string;
-  name: string;
-  description: string;
-  price: number;
-  image: string;
-  imageUrl: string;
-};
+
+  type product ={
+    _id: string;
+    name: string;
+    description: string;
+    price: number;
+    image: string;
+    imageUrl: string;
+  };
 
 
+
+ 
+  
 
 
 const Products = async () => {
